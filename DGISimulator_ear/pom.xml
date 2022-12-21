@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+<parent>
+    <groupId>uy.com.filenotfound</groupId>
+    <artifactId>dgiSimulatorContainer</artifactId>
+    <version>2.0-SNAPSHOT</version>
+</parent>
+
+    <groupId>uy.com.filenotfound.dgiSimulatorContainer</groupId>
+    <artifactId>DGISimulator_ear</artifactId>
+    <version>${commons.version}</version>
+    <packaging>ear</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.antel.dti.sat.pcfv2.commons</groupId>
+            <artifactId>DGISimulator</artifactId>
+            <scope>compile</scope>
+            <version>2.0-NBR-SNAPSHOT</version>
+            <type>ejb</type>
+        </dependency>
+        <dependency>
+            <groupId>com.antel.dti.lib.chassis</groupId>
+            <artifactId>common_chassis</artifactId>
+            <version>1.1.0-SNAPSHOT</version>
+            <type>ejb</type>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>DGISimulator_ear</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-ear-plugin</artifactId>
+                <configuration>
+                    <defaultLibBundleDir>lib</defaultLibBundleDir>
+                    <skinnyWars>true</skinnyWars>
+                    <modules>
+                        <ejbModule>
+                            <groupId>com.antel.dti.sat.pcfv2.commons</groupId>
+                            <artifactId>DGISimulator</artifactId>
+                            <bundleFileName>dgiSimulator.jar</bundleFileName>
+                        </ejbModule>
+                        <ejbModule>
+                            <groupId>com.antel.dti.lib.chassis</groupId>
+                            <artifactId>common_chassis</artifactId>
+                            <bundleFileName>common_chassis.jar</bundleFileName>
+                        </ejbModule>
+                    </modules>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <useUniqueVersions>false</useUniqueVersions>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

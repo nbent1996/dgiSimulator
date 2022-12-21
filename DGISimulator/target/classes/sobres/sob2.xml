@@ -1,0 +1,102 @@
+<![CDATA[<cfe:EnvioCFE version="1.0" xmlns:cfe="http://cfe.dgi.gub.uy"><cfe:Caratula version="1.0">
+<cfe:RutReceptor>219999830019</cfe:RutReceptor><cfe:RUCEmisor>211003420017</cfe:RUCEmisor><cfe:Idemisor>1839739955</cfe:Idemisor><cfe:CantCFE>1</cfe:CantCFE><cfe:Fecha>2022-06-07T11:27:40.185-03:00</cfe:Fecha>
+</cfe:Caratula><CFE xmlns="http://cfe.dgi.gub.uy" xmlns:xd="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <eFact>
+    <TmstFirma>2022-06-08T13:56:24-03:00</TmstFirma>
+    <Encabezado>
+      <IdDoc>
+        <TipoCFE>111</TipoCFE>
+        <Serie>E</Serie>
+        <Nro>881220</Nro>
+        <FchEmis>2022-05-02</FchEmis>
+        <FmaPago>2</FmaPago>
+        <FchVenc>2022-05-02</FchVenc>
+      </IdDoc>
+      <Emisor>
+        <RUCEmisor>211003420017</RUCEmisor>
+        <RznSoc>Administración Nacional de Telecomunicaciones</RznSoc>
+        <NomComercial>ANTEL</NomComercial>
+        <GiroEmis>Telecomunicaciones</GiroEmis>
+        <Telefono>29280000</Telefono>
+        <CorreoEmisor>Tributacion@antel.com.uy</CorreoEmisor>
+        <EmiSucursal/>
+        <CdgDGISucur>1</CdgDGISucur>
+        <DomFiscal>Guatemala 1075 (11800)</DomFiscal>
+        <Ciudad>Montevideo</Ciudad>
+        <Departamento>Montevideo</Departamento>
+      </Emisor>
+      <Receptor>
+        <TipoDocRecep>2</TipoDocRecep>
+        <CodPaisRecep>UY</CodPaisRecep>
+        <DocRecep>219999830019</DocRecep>
+        <RznSocRecep>DGI RUC PRUEBA CEDE</RznSocRecep>
+        <DirRecep>CL COLONIA 1494BIS                      MONTEVIDEO</DirRecep>
+        <CiudadRecep>MVD</CiudadRecep>
+        <DeptoRecep>MONTEVIDEO</DeptoRecep>
+      </Receptor>
+      <Totales>
+        <TpoMoneda>UYU</TpoMoneda>
+        <TpoCambio>1.00</TpoCambio>
+        <MntNoGrv>0.00</MntNoGrv>
+        <MntNetoIvaTasaMin>0.00</MntNetoIvaTasaMin>
+        <MntNetoIVATasaBasica>323.29</MntNetoIVATasaBasica>
+        <IVATasaMin>10.000</IVATasaMin>
+        <IVATasaBasica>22.000</IVATasaBasica>
+        <MntIVATasaMin>0.00</MntIVATasaMin>
+        <MntIVATasaBasica>71.17</MntIVATasaBasica>
+        <MntTotal>394.46</MntTotal>
+        <CantLinDet>2</CantLinDet>
+        <MontoNF>0.00</MontoNF>
+        <MntPagar>394.46</MntPagar>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <Item>
+        <NroLinDet>1</NroLinDet>
+        <IndFact>3</IndFact>
+        <NomItem>INTERES DE FINANCIACION</NomItem>
+        <DscItem>INTERES DE FINANCIACION</DscItem>
+        <Cantidad>1</Cantidad>
+        <UniMed/>
+        <PrecioUnitario>271.59</PrecioUnitario>
+        <DescuentoPct>0.00</DescuentoPct>
+        <DescuentoMonto>0.00</DescuentoMonto>
+        <RecargoPct>0.00</RecargoPct>
+        <RecargoMnt>0.00</RecargoMnt>
+        <MontoItem>271.59</MontoItem>
+      </Item>
+      <Item>
+        <NroLinDet>2</NroLinDet>
+        <IndFact>3</IndFact>
+        <NomItem>RECARGO</NomItem>
+        <DscItem>RECARGO</DscItem>
+        <Cantidad>1</Cantidad>
+        <UniMed/>
+        <PrecioUnitario>51.70</PrecioUnitario>
+        <DescuentoPct>0.00</DescuentoPct>
+        <DescuentoMonto>0.00</DescuentoMonto>
+        <RecargoPct>0.00</RecargoPct>
+        <RecargoMnt>0.00</RecargoMnt>
+        <MontoItem>51.70</MontoItem>
+      </Item>
+    </Detalle>
+    <Referencia>
+      <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <IndGlobal>1</IndGlobal>
+        <TpoDocRef>111</TpoDocRef>
+        <Serie>E</Serie>
+        <NroCFERef>881220</NroCFERef>
+        <RazonRef/>
+        <FechaCFEref>2022-05-02</FechaCFEref>
+      </Referencia>
+    </Referencia>
+    <CAEData>
+      <CAE_ID>90201146709</CAE_ID>
+      <DNro>1</DNro>
+      <HNro>1000000</HNro>
+      <FecVenc>2022-08-10</FecVenc>
+    </CAEData>
+  </eFact>
+  </CFE>
+</cfe:EnvioCFE>]]>

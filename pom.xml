@@ -1,0 +1,117 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uy.com.filenotfound</groupId>
+  <artifactId>dgiSimulatorContainer</artifactId>
+  <version>2.0-SNAPSHOT</version><!-- Aca va version 2 -->
+  <packaging>pom</packaging>
+  <name>DGISimulator_Container</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <commons.version>2.0-SNAPSHOT</commons.version>
+    <wildfly.bom.version>26.1.1.Final</wildfly.bom.version>
+    <dgi.version>1.42.1</dgi.version>
+  </properties>
+  
+  <profiles>
+    <profile>
+      <activation>
+        <file>
+          <exists>C:\Users\e828367</exists>
+        </file>
+      </activation>
+      <id>NBR</id>
+      <properties>
+        <commons.version>2.0-NBR-SNAPSHOT</commons.version>
+      </properties>
+    </profile>
+  </profiles>
+
+  <modules>
+    <module>DGISimulator</module>
+    <module>DGISimulator_ear</module>
+  </modules>
+
+  <distributionManagement>
+		<repository>
+			<id>rlo-repo</id>
+			<name>rlo-repo</name>
+			<url>https://nexus.in.iantel.com.uy/repository/rlo-repo/</url>
+		</repository>
+		<snapshotRepository>
+			<id>rlo-repo-snapshot</id>
+			<name>rlo-repo-snapshots</name>
+			<url>https://nexus.in.iantel.com.uy/repository/rlo-repo-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.9.0-M1</version><!--ACTUALIZADA 13/06/2022 NBR-->
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.antel.dti.sat.pcf</groupId>
+        <artifactId>dgi_beans</artifactId>
+        <version>${dgi.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.xmlbeans</groupId><!--ACTUALIZADA 03/06/2022 NBR-->
+      <artifactId>xmlbeans</artifactId>
+      <version>5.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.17.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.17.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId><!--AGREGADA 31/05/2022 NBR-->
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.36</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId><!--AGREGADA 31/05/2022 NBR-->
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.36</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.santuario</groupId>
+      <artifactId>xmlsec</artifactId>
+      <version>3.0.0</version><!--ACTUALIZADA 31/05/2022 NBR-->
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.70</version><!--AGREGADA 03/06/2022 NBR-->
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>17</source>
+          <target>17</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>2.7</version>
+        <configuration>
+          <skip>false</skip>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

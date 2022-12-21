@@ -1,0 +1,100 @@
+<![CDATA][<CFE xmlns="http://cfe.dgi.gub.uy" xmlns:xd="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+<eFact>
+  <TmstFirma>2022-07-01T15:43:22-03:00</TmstFirma>
+  <Encabezado>
+    <IdDoc>
+      <TipoCFE>111</TipoCFE>
+      <Serie>E</Serie>
+      <Nro>1087626</Nro>
+      <FchEmis>2022-07-01</FchEmis>
+      <FmaPago>2</FmaPago>
+      <FchVenc>2022-07-01</FchVenc>
+    </IdDoc>
+    <Emisor>
+      <RUCEmisor>211003420017</RUCEmisor>
+      <RznSoc>Administración Nacional de Telecomunicaciones</RznSoc>
+      <NomComercial>ANTEL</NomComercial>
+      <GiroEmis>Telecomunicaciones</GiroEmis>
+      <Telefono>29280000</Telefono>
+      <CorreoEmisor>Tributacion@antel.com.uy</CorreoEmisor>
+      <EmiSucursal/>
+      <CdgDGISucur>1</CdgDGISucur>
+      <DomFiscal>Guatemala 1075 (11800)</DomFiscal>
+      <Ciudad>Montevideo</Ciudad>
+      <Departamento>Montevideo</Departamento>
+    </Emisor>
+    <Receptor>
+      <TipoDocRecep>2</TipoDocRecep>
+      <CodPaisRecep>UY</CodPaisRecep>
+      <DocRecep>215110020015</DocRecep>
+      <RznSocRecep>GONZALEZ CABRAL MARTIN SEBASTIAN</RznSocRecep>
+      <DirRecep>CL BUXAREO 1349                         MONTEVIDEO</DirRecep>
+      <CiudadRecep>MVD</CiudadRecep>
+      <DeptoRecep>MONTEVIDEO</DeptoRecep>
+      <CompraID/>
+    </Receptor>
+    <Totales>
+      <TpoMoneda>UYU</TpoMoneda>
+      <TpoCambio>1.00</TpoCambio>
+      <MntNoGrv>0.00</MntNoGrv>
+      <MntNetoIvaTasaMin>0.00</MntNetoIvaTasaMin>
+      <MntNetoIVATasaBasica>1812.23</MntNetoIVATasaBasica>
+      <IVATasaMin>10.000</IVATasaMin>
+      <IVATasaBasica>22.000</IVATasaBasica>
+      <MntIVATasaMin>0.00</MntIVATasaMin>
+      <MntIVATasaBasica>398.78</MntIVATasaBasica>
+      <MntTotal>2211.01</MntTotal>
+      <CantLinDet>2</CantLinDet>
+      <MontoNF>0.00</MontoNF>
+      <MntPagar>2211.01</MntPagar>
+    </Totales>
+  </Encabezado>
+  <Detalle>
+    <Item>
+      <NroLinDet>1</NroLinDet>
+      <IndFact>3</IndFact>
+      <NomItem>INTERES DE FINANCIACION</NomItem>
+      <DscItem>INTERES DE FINANCIACION</DscItem>
+      <Cantidad>1</Cantidad>
+      <UniMed/>
+      <PrecioUnitario>1646.55</PrecioUnitario>
+      <DescuentoPct>0.00</DescuentoPct>
+      <DescuentoMonto>0.00</DescuentoMonto>
+      <RecargoPct>0.00</RecargoPct>
+      <RecargoMnt>0.00</RecargoMnt>
+      <MontoItem>1646.55</MontoItem>
+    </Item>
+    <Item>
+      <NroLinDet>2</NroLinDet>
+      <IndFact>3</IndFact>
+      <NomItem>RECARGO</NomItem>
+      <DscItem>RECARGO</DscItem>
+      <Cantidad>1</Cantidad>
+      <UniMed/>
+      <PrecioUnitario>165.68</PrecioUnitario>
+      <DescuentoPct>0.00</DescuentoPct>
+      <DescuentoMonto>0.00</DescuentoMonto>
+      <RecargoPct>0.00</RecargoPct>
+      <RecargoMnt>0.00</RecargoMnt>
+      <MontoItem>165.68</MontoItem>
+    </Item>
+  </Detalle>
+  <Referencia>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <IndGlobal>1</IndGlobal>
+      <TpoDocRef>111</TpoDocRef>
+      <Serie>E</Serie>
+      <NroCFERef>1087626</NroCFERef>
+      <RazonRef/>
+      <FechaCFEref>2022-07-01</FechaCFEref>
+    </Referencia>
+  </Referencia>
+  <CAEData>
+    <CAE_ID>90201146725</CAE_ID>
+    <DNro>1000001</DNro>
+    <HNro>2000000</HNro>
+    <FecVenc>2022-08-10</FecVenc>
+  </CAEData>
+</eFact>
+</CFE>]]>

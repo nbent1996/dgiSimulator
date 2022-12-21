@@ -1,0 +1,108 @@
+<cfe:CFE version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfe="http://cfe.dgi.gub.uy">
+  <cfe:eFact>
+    <cfe:TmstFirma>2013-09-11T19:08:06-03:00</cfe:TmstFirma>
+    <cfe:Encabezado>
+      <cfe:IdDoc>
+        <cfe:TipoCFE>112</cfe:TipoCFE>
+        <cfe:Serie>A</cfe:Serie>
+        <cfe:Nro>118</cfe:Nro>
+        <cfe:FchEmis>2013-04-18</cfe:FchEmis>
+        <cfe:FmaPago>2</cfe:FmaPago>
+      </cfe:IdDoc>
+      <cfe:Emisor>
+        <cfe:RUCEmisor>210154140015</cfe:RUCEmisor>
+        <cfe:RznSoc>Garino Hnos. S.A.</cfe:RznSoc>
+        <cfe:NomComercial>Garino Hnos. S.A.</cfe:NomComercial>
+        <cfe:GiroEmis>No definido</cfe:GiroEmis>
+        <cfe:CorreoEmisor>info@garino.com.uy</cfe:CorreoEmisor>
+        <cfe:EmiSucursal>GASTON</cfe:EmiSucursal>
+        <cfe:CdgDGISucur>1</cfe:CdgDGISucur>
+        <cfe:DomFiscal>Goes 2190</cfe:DomFiscal>
+        <cfe:Ciudad>Montevideo</cfe:Ciudad>
+        <cfe:Departamento>Montevideo</cfe:Departamento>
+      </cfe:Emisor>
+      <cfe:Receptor>
+        <cfe:TipoDocRecep>2</cfe:TipoDocRecep>
+        <cfe:CodPaisRecep>UY</cfe:CodPaisRecep>
+        <cfe:DocRecep>211003420017</cfe:DocRecep>
+        <cfe:RznSocRecep>ADM. NAL. DE TELECOMUNICACIONES - ANTEL</cfe:RznSocRecep>
+        <cfe:DirRecep>GUATEMALA 1075</cfe:DirRecep>
+        <cfe:CiudadRecep>MONTEVIDEO</cfe:CiudadRecep>
+        <cfe:DeptoRecep>MONTEVIDEO</cfe:DeptoRecep>
+      </cfe:Receptor>
+      <cfe:Totales>
+        <cfe:TpoMoneda>USD</cfe:TpoMoneda>
+        <cfe:TpoCambio>18.962</cfe:TpoCambio>
+        <cfe:MntNetoIVATasaBasica>13796.03</cfe:MntNetoIVATasaBasica>
+        <cfe:IVATasaMin>10.000</cfe:IVATasaMin>
+        <cfe:IVATasaBasica>22.000</cfe:IVATasaBasica>
+        <cfe:MntIVATasaBasica>3035.13</cfe:MntIVATasaBasica>
+        <cfe:MntTotal>16831.16</cfe:MntTotal>
+        <cfe:CantLinDet>5</cfe:CantLinDet>
+        <cfe:MontoNF>-0.16</cfe:MontoNF>
+        <cfe:MntPagar>16831.00</cfe:MntPagar>
+      </cfe:Totales>
+    </cfe:Encabezado>
+    <cfe:Detalle>
+      <cfe:Item>
+        <cfe:NroLinDet>1</cfe:NroLinDet>
+        <cfe:IndFact>3</cfe:IndFact>
+        <cfe:NomItem>B896##138247##(Millar) TARJETA BAM PREPAGO $ 100</cfe:NomItem>
+        <cfe:Cantidad>718.791</cfe:Cantidad>
+        <cfe:UniMed>Un</cfe:UniMed>
+        <cfe:PrecioUnitario>17.88</cfe:PrecioUnitario>
+        <cfe:MontoItem>12851.96</cfe:MontoItem>
+      </cfe:Item>
+      <cfe:Item>
+        <cfe:NroLinDet>2</cfe:NroLinDet>
+        <cfe:IndFact>3</cfe:IndFact>
+        <cfe:NomItem>B896##138248##(Millar) TARJETA BAM PREPAGO $ 200</cfe:NomItem>
+        <cfe:Cantidad>50.4</cfe:Cantidad>
+        <cfe:UniMed>Un</cfe:UniMed>
+        <cfe:PrecioUnitario>17.88</cfe:PrecioUnitario>
+        <cfe:MontoItem>901.15</cfe:MontoItem>
+      </cfe:Item>
+      <cfe:Item>
+        <cfe:NroLinDet>3</cfe:NroLinDet>
+        <cfe:IndFact>3</cfe:IndFact>
+        <cfe:NomItem>B896##138249##(Millar) TARJETA BAM PREPAGO $ 300</cfe:NomItem>
+        <cfe:Cantidad>1.2</cfe:Cantidad>
+        <cfe:UniMed>Un</cfe:UniMed>
+        <cfe:PrecioUnitario>17.88</cfe:PrecioUnitario>
+        <cfe:MontoItem>21.46</cfe:MontoItem>
+      </cfe:Item>
+      <cfe:Item>
+        <cfe:NroLinDet>4</cfe:NroLinDet>
+        <cfe:IndFact>3</cfe:IndFact>
+        <cfe:NomItem>B896##138250##(Millar) TARJETA BAM PREPAGO $ 500</cfe:NomItem>
+        <cfe:Cantidad>1.2</cfe:Cantidad>
+        <cfe:UniMed>Un</cfe:UniMed>
+        <cfe:PrecioUnitario>17.88</cfe:PrecioUnitario>
+        <cfe:MontoItem>21.46</cfe:MontoItem>
+      </cfe:Item>
+      <cfe:Item>
+        <cfe:NroLinDet>5</cfe:NroLinDet>
+        <cfe:IndFact>7</cfe:IndFact>
+        <cfe:NomItem>Redondeo</cfe:NomItem>
+        <cfe:Cantidad>1</cfe:Cantidad>
+        <cfe:UniMed>Un</cfe:UniMed>
+        <cfe:PrecioUnitario>0.16</cfe:PrecioUnitario>
+        <cfe:MontoItem>0.16</cfe:MontoItem>
+      </cfe:Item>
+    </cfe:Detalle>
+    <cfe:Referencia>
+      <cfe:Referencia>
+        <cfe:NroLinRef>1</cfe:NroLinRef>
+        <cfe:Serie/>
+        <cfe:NroCFERef>0</cfe:NroCFERef>
+        <cfe:RazonRef>No se identifica el documento a referenciar, o se refrencia a m?s de 40 documentos.</cfe:RazonRef>
+      </cfe:Referencia>
+    </cfe:Referencia>
+    <cfe:CAEData>
+      <cfe:CAE_ID>90130002211</cfe:CAE_ID>
+      <cfe:DNro>1</cfe:DNro>
+      <cfe:HNro>500</cfe:HNro>
+      <cfe:FecVenc>2015-02-01</cfe:FecVenc>
+    </cfe:CAEData>
+  </cfe:eFact>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>PG9opXdXm3MAtraJxeE+LPMwtaQ=</DigestValue></Reference></SignedInfo><SignatureValue>Jcthnd+qqT01Kv1+KKEhpAAuSzv3s/fBSWGRHGcysDEsD4VrAedIkThg9QPnE76E7kAVSTXZVqUsKsNISGY+QJdDLT+ezfDzsN7GdS/2beWBDVw0/lYhjlGwCsS5HVN3Hw+ka50CoN/yDSqddOOZmGetfRp3pMZc/iACnMx6k4c=</SignatureValue><KeyInfo><X509Data><X509IssuerSerial><X509IssuerName>CN=Correo Uruguayo - CA, OU=SERVICIOS ELECTRONICOS, O=ADMINISTRACION NACIONAL DE CORREOS, C=UY</X509IssuerName><X509SerialNumber>108726358928737713239878012055047166318</X509SerialNumber></X509IssuerSerial><X509Certificate>MIIFdDCCA1ygAwIBAgIQUcvvXtCFnItRn7S5PJTZbjANBgkqhkiG9w0BAQUFADB6MQswCQYDVQQGEwJVWTErMCkGA1UECgwiQURNSU5JU1RSQUNJT04gTkFDSU9OQUwgREUgQ09SUkVPUzEfMB0GA1UECwwWU0VSVklDSU9TIEVMRUNUUk9OSUNPUzEdMBsGA1UEAwwUQ29ycmVvIFVydWd1YXlvIC0gQ0EwHhcNMTMwNTI0MTg0MzA1WhcNMTQwNTI0MTg0MzA1WjCBjTEkMCIGCSqGSIb3DQEJARYVcGN1YWRyb0BnYXJpbm8uY29tLnV5MRMwEQYDVQQIDApNb250ZXZpZGVvMQswCQYDVQQGEwJVWTEYMBYGA1UEBRMPUlVDMjEwMTU0MTQwMDE1MSkwJwYDVQQDDCBHQVJJTk8gSEVSTUFOT1MgU09DSUVEQUQgQU5PTklNQTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0yLkPaCkGPyCq9BaQGo4udfeJayVX9786lDTZtJpexMCK0TAOb7f2qSMMNLCmdMkrBU9W3jkqOBEFlWuyvjG8qo7RJ/qnsIYcEmRUvOtRz/psp9YU527fx6k6Tl55BIZ4NO5PbklbwD5sYKd05ZMmHWeD8Nv/vB3+d8qYMqY+VkCAwEAAaOCAWQwggFgMCAGA1UdEQQZMBeBFXBjdWFkcm9AZ2FyaW5vLmNvbS51eTAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwID+DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEBBAQDAgWgMB0GA1UdDgQWBBTnoGZC/YtPj+VqlUv8kDkLyolRuzAfBgNVHSMEGDAWgBQlj99DL45qugu+RlxXUJO3Ub782TBUBgNVHSAETTBLMEkGDCsGAQQBgfVPAQEBBDA5MDcGCCsGAQUFBwIBFitodHRwOi8vd3d3LmNvcnJlby5jb20udXkvY29ycmVvY2VydC9jcHMucGRmMBgGDSsGAQQBgfVPAQEBBAEEBwwFRGlzY28wPAYDVR0fBDUwMzAxoC+gLYYraHR0cDovL3d3dy5jb3JyZW8uY29tLnV5L0NvcnJlb0NlcnQvYW5jLmNybDANBgkqhkiG9w0BAQUFAAOCAgEAWD6OnjBJpkWBJrb6Iyf4pVC0gio3qRgPQxbhlLpV7HG5/6zPW2VEC4AfcmGnAaFr7oQFColKjf2wk/FqN977Bf2DGs1KqkQ7frJB8Ul7svYIlalr/JYHh920g44mookB7uU5MmMuMi55FOrppSVhTecH2kSOkFr9SW39fyY9lQRwSK5X5myKCuWI8kRYsFFsZAc1OwZPEzcmuDlO0sRyVrH0tnsKeiPleJMMZ/j5n09JzTCv4aHnywo1gnWT/ofkVUWS8GElCN7rSoNqlgebPtU3usbVLU2pYmtWzDbykzSVWHl2h6+c1G+/fuxQLrKTG2Xx69WxAM8Byf6StnKWBf0xwHoKsiIDpScJh9viUSc4njEsc35qZNbSuINqStzRcu4CtX5bw83MvpAwpLrCi3iWzqa/mTwA2Madg9dwNO0u/tZSAN0t8eeHNkOJPMlEDsBaTSrtNHmKFhMoKm8lNuAeUVKm1sZOAvhkj5f1buB6Rti/vIivykSb/MoZRMKzj82p+C0S84Q2/FLFHXx8FB5zMqr12aZVsJ9l4zzn8eF8Ysp4XD2jSpWGu0PCXnvrxkubiRAsbZdXcMeZLW4fk5e+aJqgPwszrVPyPzAVyo/ZKIudQWSXmyI5KWpPWJUonLcZwpBoOmO6t3kWiMx1QuRZhYYZs45YRtIE7r5Fu2M=</X509Certificate></X509Data></KeyInfo></Signature></cfe:CFE>

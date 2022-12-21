@@ -1,0 +1,444 @@
+<cfe:CFE version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfe="http://cfe.dgi.gub.uy">
+	<cfe:eFact>
+		<cfe:TmstFirma>2013-01-25T08:58:14.515-02:00</cfe:TmstFirma>
+		<cfe:Encabezado>
+			<cfe:IdDoc>
+				<cfe:TipoCFE>112</cfe:TipoCFE>
+				<cfe:Serie>A</cfe:Serie>
+				<cfe:Nro>0006890</cfe:Nro>
+				<cfe:FchEmis>2013-01-25</cfe:FchEmis>
+				<cfe:FmaPago>1</cfe:FmaPago>
+			</cfe:IdDoc>
+			<cfe:Emisor>
+				<cfe:RUCEmisor>210094030014</cfe:RUCEmisor>
+				<cfe:RznSoc>Henderson Y Cia. S.A.</cfe:RznSoc>
+				<cfe:NomComercial>Tienda Inglesa</cfe:NomComercial>
+				<cfe:EmiSucursal>Propios</cfe:EmiSucursal>
+				<cfe:CdgDGISucur>10</cfe:CdgDGISucur>
+				<cfe:DomFiscal>Jose B. Ordonez 3770</cfe:DomFiscal>
+				<cfe:Ciudad>Montevideo</cfe:Ciudad>
+				<cfe:Departamento>Montevideo</cfe:Departamento>
+			</cfe:Emisor>
+			<cfe:Receptor>
+				<cfe:TipoDocRecep>2</cfe:TipoDocRecep>
+				<cfe:CodPaisRecep>UY</cfe:CodPaisRecep>
+				<cfe:DocRecep>211003420017</cfe:DocRecep>
+				<cfe:RznSocRecep>ANTEL</cfe:RznSocRecep>
+				<cfe:DirRecep>GUATEMALA 1075</cfe:DirRecep>
+				<cfe:CiudadRecep>MONTEVIDEO</cfe:CiudadRecep>
+			</cfe:Receptor>
+			<cfe:Totales>
+				<cfe:TpoMoneda>UYU</cfe:TpoMoneda>
+				<cfe:MntNetoIVATasaBasica>1163.93</cfe:MntNetoIVATasaBasica>
+				<cfe:IVATasaMin>10</cfe:IVATasaMin>
+				<cfe:IVATasaBasica>22</cfe:IVATasaBasica>
+				<cfe:MntIVATasaBasica>256.07</cfe:MntIVATasaBasica>
+				<cfe:MntTotal>1420.00</cfe:MntTotal>
+				<cfe:CantLinDet>002</cfe:CantLinDet>
+				<cfe:MntPagar>1420.00</cfe:MntPagar>
+			</cfe:Totales>
+		</cfe:Encabezado>
+		<cfe:Detalle>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>2</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>COSTO DE ENVIO</cfe:NomItem>
+				<cfe:Cantidad>1.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>147.54</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>147.54</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+			<cfe:Item>
+				<cfe:NroLinDet>1</cfe:NroLinDet>
+				<cfe:IndFact>3</cfe:IndFact>
+				<cfe:NomItem>PANUELO LAVANDA X 6 ESTO ES UN TEXTO DE PRUEBA QUE PASA
+					LA CANTIDAD DE CARACTERES DE LA LINEA DE LA DESCRIPCION
+				</cfe:NomItem>
+				<cfe:Cantidad>20.000</cfe:Cantidad>
+				<cfe:UniMed>UNID</cfe:UniMed>
+				<cfe:PrecioUnitario>50.82</cfe:PrecioUnitario>
+				<cfe:DescuentoMonto>0.00</cfe:DescuentoMonto>
+				<cfe:MontoItem>1016.39</cfe:MontoItem>
+			</cfe:Item>
+		</cfe:Detalle>
+		<cfe:MediosPago>
+			<cfe:MedioPago>
+				<cfe:NroLinMP>1</cfe:NroLinMP>
+				<cfe:CodMP>001</cfe:CodMP>
+				<cfe:GlosaMP>Efectivo</cfe:GlosaMP>
+				<cfe:ValorPago>1420.00</cfe:ValorPago>
+			</cfe:MedioPago>
+		</cfe:MediosPago>
+		<cfe:Referencia>
+			<cfe:Referencia>
+				<cfe:NroLinRef>1</cfe:NroLinRef>
+				<cfe:TpoDocRef>111</cfe:TpoDocRef>
+				<cfe:Serie>A</cfe:Serie>
+				<cfe:NroCFERef>0092376</cfe:NroCFERef>
+				<cfe:FechaCFEref>2013-01-25</cfe:FechaCFEref>
+			</cfe:Referencia>
+		</cfe:Referencia>
+		<cfe:CAEData>
+			<cfe:CAE_ID>90120000194</cfe:CAE_ID>
+			<cfe:DNro>1</cfe:DNro>
+			<cfe:HNro>49999</cfe:HNro>
+			<cfe:FecVenc>2014-08-15</cfe:FecVenc>
+		</cfe:CAEData>
+	</cfe:eFact>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod
+				Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+				<DigestValue>hJ/V+R7Fi2zt3JoeMWHmNpGhevM=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>
+			S68nXKExN33bN5D6ZSvoQHFjq9SOyBy9TALdvz+EQggyCMv8+++9F7CZGthZ2H5bQyFK1fPSjCa5
+			JHKv0hNxT0Q/hktVv2nj8jC8SI05MQipBVHB3LSQEdBGUjoYfy5PTaHfOX9V7LGe47C1iIcgMZPv
+			rW2V1HwaDRQoLYuNTSU=
+		</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509IssuerSerial>
+					<X509IssuerName>CN=Correo Uruguayo - CA,OU=SERVICIOS
+						ELECTRONICOS,O=ADMINISTRACION NACIONAL DE CORREOS,C=UY
+					</X509IssuerName>
+					<X509SerialNumber>128579738804879420803188364900381754869
+					</X509SerialNumber>
+				</X509IssuerSerial>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</cfe:CFE>

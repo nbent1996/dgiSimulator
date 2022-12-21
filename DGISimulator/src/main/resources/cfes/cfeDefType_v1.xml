@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><CFE xmlns="http://cfe.dgi.gub.uy" xmlns:xd="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <eFact>
+    <TmstFirma>2012-06-15T17:00:15-03:00</TmstFirma>
+    <Encabezado>
+      <IdDoc>
+        <TipoCFE>111</TipoCFE>
+        <Serie>GZ</Serie>
+        <Nro>1</Nro>
+        <FchEmis>2012-02-28</FchEmis>
+        <FmaPago>1</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUCEmisor>211003420017</RUCEmisor>
+        <RznSoc>ANTEL</RznSoc>
+        <NomComercial>ANTEL</NomComercial>
+        <GiroEmis>Telecomunicaciones</GiroEmis>
+        <Telefono>2928 0000</Telefono>
+        <CorreoEmisor>GS-CONCILIACIONES@MAIL.ANTEL.COM.UY</CorreoEmisor>
+        <EmiSucursal>ANTEL</EmiSucursal>
+        <CdgDGISucur>1</CdgDGISucur>
+        <DomFiscal>GUATEMALA 1075</DomFiscal>
+        <Ciudad>Montevideo</Ciudad>
+        <Departamento>Montevideo</Departamento>
+      </Emisor>
+      <Receptor>
+        <TipoDocRecep>2</TipoDocRecep>
+        <CodPaisRecep>UY</CodPaisRecep>
+        <DocRecep>10252025XXXX</DocRecep>
+        <RznSocRecep>Rzn</RznSocRecep>
+        <DirRecep>Dir Receptor</DirRecep>
+        <CiudadRecep>Ciudad</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <TpoMoneda>UYU</TpoMoneda>
+        <MntNoGrv>0.00</MntNoGrv>
+        <MntNetoIvaTasaMin>0.00</MntNetoIvaTasaMin>
+        <MntNetoIVATasaBasica>8.20</MntNetoIVATasaBasica>
+        <IVATasaMin>10</IVATasaMin>
+        <IVATasaBasica>22</IVATasaBasica>
+        <MntIVATasaMin>0.00</MntIVATasaMin>
+        <MntIVATasaBasica>1.80</MntIVATasaBasica>
+        <MntTotal>10.00</MntTotal>
+        <CantLinDet>1</CantLinDet>
+        <MontoNF>0.00</MontoNF>
+        <MntPagar>10.00</MntPagar>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <Item>
+        <NroLinDet>1</NroLinDet>
+        <IndFact>3</IndFact>
+        <NomItem>PIN $10</NomItem>
+        <Cantidad>1</Cantidad>
+        <UniMed/>
+        <PrecioUnitario>8.20</PrecioUnitario>
+        <MontoItem>8.20</MontoItem>
+      </Item>
+    </Detalle>
+    <CAEData>
+      <CAE_ID>83110223317</CAE_ID>
+      <DNro>1</DNro>
+      <HNro>999999</HNro>
+      <FecVenc>2013-04-11-03:00</FecVenc>
+    </CAEData>
+  </eFact>
+  
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>qwMyp4aP134UFz+H453h2YEzLFY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+nmYJqBG92ioGJFisxMgr+/eoG4H2BtIE8g88Fai/sZLBd/qrssWa6zl8L1B1VGsimxBTVfaQjouT
+a5pbzzua6LoW2sWYGQ/kSs6TqYacOIQXIt/sMY+dAlcts8qfdabVhjN38WWPxruNu5cC4kAui7wG
+HWNm0nvLk2zHd+Vg/gM=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>CN=FactElectTest,O=Antel,C=UY,SERIALNUMBER=RUC211003420017</ds:X509IssuerName>
+<ds:X509SerialNumber>1334329254</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></CFE>
